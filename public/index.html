@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HackerNews Articles</title>
+</head>
+<body>
+    <form>
+        <h2>Add Article</h2>
+        <input type="text" placeholder="Article title" id="title">
+        <input type="text" placeholder="Article poster" id="poster">
+        <input type="text" placeholder="Article description" id="description">
+        <br />
+        <button onclick="addArticle()" id="submit" type="submit" value="submit">Submit</button>
+    </form>
+
+    <button onclick="showAllArticles()">Show All Articles</button>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
